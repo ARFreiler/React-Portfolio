@@ -1,4 +1,5 @@
 import React from 'react';
+import './Header.css';
 
 function body() {
     return (
@@ -9,3 +10,5 @@ function body() {
         </div>
     )
 }
+
+export default Header;
