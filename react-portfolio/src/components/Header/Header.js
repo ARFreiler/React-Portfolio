@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.css';
 
-function body(props) {
+const Header = () => {
     return (
         <div className="body">
             <div className="container">
