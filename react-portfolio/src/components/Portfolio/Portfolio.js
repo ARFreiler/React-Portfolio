@@ -34,16 +34,16 @@ const Portfolio = () => {
                     <a href="https://arfreiler.github.io/Daily-Planner/">Visit the Daily Planner</a>
                 </div>
                 <div className="project">
-                    <h2>Title</h2>
-                    <p>Description</p>
-                    <img src="" alt="" />
-                    <a href="">Placeholder</a>
+                    <h2>JavaScript Quiz</h2>
+                    <p>JavaScript Quiz is an introduction to JavaScript application. This applicatio has dynamically generated elements, is responsive, and stores a users stats in local storage.</p>
+                    <img src="JQ.jpg" alt="JavaScript Quiz Homepage" />
+                    <a href="https://arfreiler.github.io/JavaScript-Quiz/">Visit the JavaScript Quiz</a>
                 </div>
                 <div className="project">
-                    <h2>Title</h2>
-                    <p>Description</p>
-                    <img src="" alt="" />
-                    <a href="">Placeholder</a>
+                    <h2>Personal Portfolio</h2>
+                    <p>This is the inital personal portfolio application build prior to the introduction of React.js. The portfolio is built strictly with HTML, CSS, and vanilla JavaScript.</p>
+                    <img src="PP.jpg" alt="Personal Portfolio Homepage" />
+                    <a href="https://arfreiler.github.io/Personal-Portfolio/">Visit the Personal Portfolio</a>
                 </div>
             </div>
         </div>
