@@ -7,7 +7,7 @@ const Navbar = () => {
         <div className="navbar">
             <div class="topnav">
                 <a class="active" href="#home">About Me</a>
-                <a href="#work">My Work</a>
+                <a href="#portfolio">Portfolio</a>
                 <a href="#contact">Contact Me</a>
                 <a href="#resume">My CV</a>
             </div>
