@@ -1,15 +1,19 @@
 import React from 'react';
 
+import './Portfolio.css';
+
 const Portfolio = () => {
     return (
         <div className="portfolio">
             <div className="container">
-                <h1>Portfolio</h1>
+                <h1 id="portfolio">Portfolio</h1>
                 <div className="project">
                     <h2>Weather Tracker</h2>
-                    <p>Allows a user to enter a city's name and get the current weather conditions plus a five day forecast. Weather conditions are accompanied by icons and color coding. The application allows the user to see previously searched locations with just a click.</p>
+                    <p id="ptag">Allows a user to enter a city's name and get the current weather conditions plus a five day forecast. Weather conditions are accompanied by icons and color coding. The application allows the user to see previously searched locations with just a click.</p>
                     <img src="WT.jpg" alt="Weather Tracker Homepage" />
-                    <a href="https://arfreiler.github.io/Weather-Tracker/">Weather Tracker</a>
+                    <div className="link">
+                        <a id="site-link" href="https://arfreiler.github.io/Weather-Tracker/"> Visit the Weather Tracker</a>
+                    </div>
                 </div>
                 <div className="project">
                     <h2>Password Generator</h2>
@@ -24,10 +28,10 @@ const Portfolio = () => {
                     <a href="https://arfreiler.github.io/Recipe-Box/">Recipe Box</a>
                 </div>
                 <div className="project">
-                    <h2>Title</h2>
-                    <p>Description</p>
-                    <img src="" alt="" />
-                    <a href="">Placeholder</a>
+                    <h2>Daily Planner</h2>
+                    <p>The Daily Planner is a simple calendar application that allows users to save eventd for each hour of the work day. The timeblocks are color coded to represent the hour as past, present, or future.</p>
+                    <img src="DP.jpg" alt="Daily Planner Homepage" />
+                    <a href="https://arfreiler.github.io/Daily-Planner/">Visit the Daily Planner</a>
                 </div>
                 <div className="project">
                     <h2>Title</h2>
