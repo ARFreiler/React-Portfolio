@@ -6,3 +6,13 @@
     width: 100%;
     text-align: center;
 }
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.icon {
+    padding-right: 8px;
+}
